@@ -12,17 +12,15 @@ on fait apparaitre les images une par une à chaque click sur le body
 */
 
 //création d'une variable pour voir si l'image est affichée
-		var img = false; 	//on considère qu'elle n'apparait pas
+		var i = 1 ;	
 
 
 		$('body').click(function() {
 
-			
 
-				//voir si l'image est display none
-				if (img === false) {
-					$('#html').fadeIn(500);
-				}
+					$('img' +i).fadeIn(500);
+					i++;
+				
 
 				
 		});
