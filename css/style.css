@@ -1,3 +1,37 @@
 body{
-	background: url('./img/fond.jpg');
+	background: url(../img/fond.jpg) no-repeat;
+	background-size: cover;
+	width: 100%;
+	
+
+}
+#langage-front {
+	display: inline-block;
+	margin-top: 508px;
+}
+#langage-front img:nth-child(1){
+	display: inline-block;
+	margin-left: 1000px;
+}
+#langage-back {
+	margin: 324px 0 0 550px;
+}
+#langage-back img{
+	display: none;
+
+}
+#langage-back img:nth-child(1){
+
+}
+#langage-back img:nth-child(2){
+	margin-left: 30px;
+}
+}
+#langage-back img:nth-child(3){
+	margin-left: 60px;
+}
+}
+#langage-back img:nth-child(4){
+	margin-left: 90px;
+}
 }
