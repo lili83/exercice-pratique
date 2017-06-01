@@ -14,10 +14,10 @@ body{
 	margin-left: 1000px;
 }
 #langage-back {
-	margin: 324px 0 0 550px;
+	margin: 404px 0 0 550px;
 }
 #langage-back img{
-	display: none;
+	display: block;
 
 }
 #langage-back img:nth-child(1){
@@ -26,12 +26,11 @@ body{
 #langage-back img:nth-child(2){
 	margin-left: 50px;
 }
-}
+
 #langage-back img:nth-child(3){
-	margin-left: 60px;
+	margin-left: 88px;
 }
-}
+
 #langage-back img:nth-child(4){
-	margin-left: 90px;
-}
+	margin-left: 129px;
 }
